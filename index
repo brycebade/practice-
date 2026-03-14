@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="topButtons">
+      <p class="count" id="count">0</p>
+      <button class="increase" id="increaseBtn">Increase</button>
+      <button class="decrease" id="decreaseBtn">Decrease</button>
+      <button class="double" id="doubleBtn">Double</button>
+    </div>
+    <div class="nextButtons">
+      <button class="reset" id="resetBtn">Reset</button>
+    </div>
+    <div class="bottomButtons">
+      <button class="bkgrd" id="bkgrdBtn">Background</button>
+    </div>
+
+    <div class="taskButtons">
+      <input id="taskInput" class="taskInput" type="text">
+      <button id="taskButton">Enter Task</button>
+      <ul id="taskItem"></ul>
+    </div>
+
+    <script src="./index.js" type="module"></script>
+    <script src="./tasks.js" type="module"></script>
+  </body>
+</html>
